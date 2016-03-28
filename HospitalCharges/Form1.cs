@@ -48,7 +48,7 @@ namespace HospitalCharges
             }
             else
             {
-                MessageBox.Show(daysSpentInHospital.ToString());
+                //MessageBox.Show(daysSpentInHospital.ToString()); //DEBUG
                 BillDisplay bill = new BillDisplay();
                 bill.setDaysSpentCharge(calculateStayCharges());
                 bill.setMedicationCharge(medicationFees);
@@ -70,7 +70,7 @@ namespace HospitalCharges
         //Generally might pass something in, but since all variables are class level, no need.
         public double calculateStayCharges()
         {
-            MessageBox.Show("StayCharges: " + (daysSpentInHospital * dailyBaseCharge).ToString());
+            //MessageBox.Show("StayCharges: " + (daysSpentInHospital * dailyBaseCharge).ToString()); //DEBUG
             return daysSpentInHospital * dailyBaseCharge; //Single line for compactness and readability
         }
 
@@ -84,6 +84,15 @@ namespace HospitalCharges
         public double calculateTotalBill()
         {
             return calculateStayCharges() + calculateMiscCharges();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            tbDaysInHospital.Clear();
+            tbLabFees.Clear();
+            tbMedicationChg.Clear();
+            tbPhysRehabChg.Clear();
+            tbSurgicalFees.Clear();
         }
     }
 }

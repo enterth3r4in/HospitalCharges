@@ -36,6 +36,7 @@
             this.lblPhysRehabChg = new System.Windows.Forms.Label();
             this.lblTotalCharges = new System.Windows.Forms.Label();
             this.lblMiscChargeTtl = new System.Windows.Forms.Label();
+            this.btnCloseBill = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -112,11 +113,22 @@
             this.lblMiscChargeTtl.TabIndex = 7;
             this.lblMiscChargeTtl.Text = "Total Misc Charges";
             // 
+            // btnCloseBill
+            // 
+            this.btnCloseBill.Location = new System.Drawing.Point(68, 263);
+            this.btnCloseBill.Name = "btnCloseBill";
+            this.btnCloseBill.Size = new System.Drawing.Size(75, 23);
+            this.btnCloseBill.TabIndex = 8;
+            this.btnCloseBill.Text = "Close Bill";
+            this.btnCloseBill.UseVisualStyleBackColor = true;
+            this.btnCloseBill.Click += new System.EventHandler(this.btnCloseBill_Click);
+            // 
             // BillDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(209, 262);
+            this.ClientSize = new System.Drawing.Size(209, 298);
+            this.Controls.Add(this.btnCloseBill);
             this.Controls.Add(this.lblMiscChargeTtl);
             this.Controls.Add(this.lblTotalCharges);
             this.Controls.Add(this.lblPhysRehabChg);
@@ -142,5 +154,6 @@
         private System.Windows.Forms.Label lblPhysRehabChg;
         private System.Windows.Forms.Label lblTotalCharges;
         private System.Windows.Forms.Label lblMiscChargeTtl;
+        private System.Windows.Forms.Button btnCloseBill;
     }
 }

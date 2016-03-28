@@ -48,7 +48,7 @@
             this.btnExit.Location = new System.Drawing.Point(197, 227);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 0;
+            this.btnExit.TabIndex = 8;
             this.btnExit.Text = "Exit Program";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
@@ -58,9 +58,10 @@
             this.btnClear.Location = new System.Drawing.Point(197, 198);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
-            this.btnClear.TabIndex = 1;
+            this.btnClear.TabIndex = 7;
             this.btnClear.Text = "Clear Fields";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // lblDaysInHospital
             // 
@@ -76,35 +77,35 @@
             this.tbDaysInHospital.Location = new System.Drawing.Point(172, 6);
             this.tbDaysInHospital.Name = "tbDaysInHospital";
             this.tbDaysInHospital.Size = new System.Drawing.Size(100, 20);
-            this.tbDaysInHospital.TabIndex = 3;
+            this.tbDaysInHospital.TabIndex = 1;
             // 
             // tbMedicationChg
             // 
             this.tbMedicationChg.Location = new System.Drawing.Point(172, 32);
             this.tbMedicationChg.Name = "tbMedicationChg";
             this.tbMedicationChg.Size = new System.Drawing.Size(100, 20);
-            this.tbMedicationChg.TabIndex = 4;
+            this.tbMedicationChg.TabIndex = 2;
             // 
             // tbSurgicalFees
             // 
             this.tbSurgicalFees.Location = new System.Drawing.Point(172, 58);
             this.tbSurgicalFees.Name = "tbSurgicalFees";
             this.tbSurgicalFees.Size = new System.Drawing.Size(100, 20);
-            this.tbSurgicalFees.TabIndex = 5;
+            this.tbSurgicalFees.TabIndex = 3;
             // 
             // tbLabFees
             // 
             this.tbLabFees.Location = new System.Drawing.Point(172, 84);
             this.tbLabFees.Name = "tbLabFees";
             this.tbLabFees.Size = new System.Drawing.Size(100, 20);
-            this.tbLabFees.TabIndex = 6;
+            this.tbLabFees.TabIndex = 4;
             // 
             // tbPhysRehabChg
             // 
             this.tbPhysRehabChg.Location = new System.Drawing.Point(172, 110);
             this.tbPhysRehabChg.Name = "tbPhysRehabChg";
             this.tbPhysRehabChg.Size = new System.Drawing.Size(100, 20);
-            this.tbPhysRehabChg.TabIndex = 7;
+            this.tbPhysRehabChg.TabIndex = 5;
             // 
             // lblMedicationChg
             // 
@@ -147,7 +148,7 @@
             this.btnCalcBill.Location = new System.Drawing.Point(12, 227);
             this.btnCalcBill.Name = "btnCalcBill";
             this.btnCalcBill.Size = new System.Drawing.Size(75, 23);
-            this.btnCalcBill.TabIndex = 12;
+            this.btnCalcBill.TabIndex = 6;
             this.btnCalcBill.Text = "Calculate Bill";
             this.btnCalcBill.UseVisualStyleBackColor = true;
             this.btnCalcBill.Click += new System.EventHandler(this.btnCalcBill_Click);
