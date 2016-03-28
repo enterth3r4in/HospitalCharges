@@ -1,1 +1,10 @@
 C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\bin\Debug\HospitalCharges.exe.config
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.csprojResolveAssemblyReference.cache
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.BillDisplay.resources
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.Form1.resources
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.Properties.Resources.resources
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.csproj.GenerateResource.Cache
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\bin\Debug\HospitalCharges.exe
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\bin\Debug\HospitalCharges.pdb
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.exe
+C:\Users\CM185181\Documents\GitHub\HospitalCharges\HospitalCharges\obj\Debug\HospitalCharges.pdb

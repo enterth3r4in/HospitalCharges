@@ -35,6 +35,7 @@
             this.lblLabFees = new System.Windows.Forms.Label();
             this.lblPhysRehabChg = new System.Windows.Forms.Label();
             this.lblTotalCharges = new System.Windows.Forms.Label();
+            this.lblMiscChargeTtl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -102,11 +103,21 @@
             this.lblTotalCharges.TabIndex = 6;
             this.lblTotalCharges.Text = "Total Charges";
             // 
+            // lblMiscChargeTtl
+            // 
+            this.lblMiscChargeTtl.AutoSize = true;
+            this.lblMiscChargeTtl.Location = new System.Drawing.Point(12, 191);
+            this.lblMiscChargeTtl.Name = "lblMiscChargeTtl";
+            this.lblMiscChargeTtl.Size = new System.Drawing.Size(98, 13);
+            this.lblMiscChargeTtl.TabIndex = 7;
+            this.lblMiscChargeTtl.Text = "Total Misc Charges";
+            // 
             // BillDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(209, 262);
+            this.Controls.Add(this.lblMiscChargeTtl);
             this.Controls.Add(this.lblTotalCharges);
             this.Controls.Add(this.lblPhysRehabChg);
             this.Controls.Add(this.lblLabFees);
@@ -130,5 +141,6 @@
         private System.Windows.Forms.Label lblLabFees;
         private System.Windows.Forms.Label lblPhysRehabChg;
         private System.Windows.Forms.Label lblTotalCharges;
+        private System.Windows.Forms.Label lblMiscChargeTtl;
     }
 }

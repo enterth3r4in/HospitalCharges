@@ -19,11 +19,13 @@ namespace HospitalCharges
             mainForm = new Form1();
         }
 
-        public void writeUpBill()
-        {
-            lblDaysSpentChg.Text = mainForm.calculateStayCharges();
-        }
+        public void setDaysSpentCharge(double charge) { lblDaysSpentChg.Text = "Stay Charges: " + charge.ToString("#.##"); }
+        public void setMedicationCharge(double charge) { lblMedicationChg.Text = "Medication: " + charge.ToString("#.##"); }
+        public void setSurgicalCharge(double charge) { lblSurgicalFees.Text = "Surgical Fees: " + charge.ToString("#.##"); }
+        public void setLabFees(double charge) { lblLabFees.Text = "Lab Fees: " + charge.ToString("#.##"); }
+        public void setPhysRehab(double charge) { lblPhysRehabChg.Text = "Physical Rehab Fees: " + charge.ToString("#.##"); }
+        public void setMiscCharges(double charge) { lblMiscChargeTtl.Text = "Miscellaneous Charges: " + charge.ToString("#.##"); }
+        public void setTotalCharges(double charge) { lblTotalCharges.Text = "Total: " + charge.ToString("#.##"); }
 
-        
     }
 }

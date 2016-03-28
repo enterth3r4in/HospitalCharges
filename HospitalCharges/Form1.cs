@@ -48,8 +48,15 @@ namespace HospitalCharges
             }
             else
             {
+                MessageBox.Show(daysSpentInHospital.ToString());
                 BillDisplay bill = new BillDisplay();
-                bill.writeUpBill();
+                bill.setDaysSpentCharge(calculateStayCharges());
+                bill.setMedicationCharge(medicationFees);
+                bill.setLabFees(labFees);
+                bill.setSurgicalCharge(surgicalFees);
+                bill.setPhysRehab(physRehabFees);
+                bill.setMiscCharges(calculateMiscCharges());
+                bill.setTotalCharges(calculateTotalBill());
                 bill.Show();
             }
         }
@@ -63,6 +70,7 @@ namespace HospitalCharges
         //Generally might pass something in, but since all variables are class level, no need.
         public double calculateStayCharges()
         {
+            MessageBox.Show("StayCharges: " + (daysSpentInHospital * dailyBaseCharge).ToString());
             return daysSpentInHospital * dailyBaseCharge; //Single line for compactness and readability
         }
 
